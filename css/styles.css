@@ -1,0 +1,60 @@
+:root{
+    padding: 0;
+    margin: 0;
+}
+.canvas{
+    background-color: whitesmoke;
+    position:relative;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2em;
+    width: 100%;
+    
+}
+.list{
+    display: inline-block;
+}
+.item{
+   display: inline-block;
+    background-color: crimson;
+    list-style: none;
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    padding-top: 5px;
+    margin: 7px;
+    text-align: center;
+ 
+    
+}
+.comparation{
+    position:fixed;
+    right: 1em;
+    display: inline-block;
+    background-color: darkgreen;
+    height: 3em;
+    width: 10em;
+    text-align: center;
+    padding:0.5em;
+    top:1em;
+}
+
+.compare-item{
+    
+    background-color: darkgrey;
+    display: inline-block;
+    width: 4.5em;
+    height: 3em;
+    margin: 0 0.1em;
+}
+.selected{
+    border-style: dashed;
+    border-color:black;
+}
+.left-list{
+    background-color: yellow;
+}
+.right-list{
+    background-color: blueviolet;
+}
+

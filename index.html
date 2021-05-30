@@ -3,10 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Document</title>
 </head>
 <body>
+    <section>
+        <input type="text" name="" id="num-items" placeholder="Number of items">
+        <input type="button" value="Generate random list" onclick="generateList()">
+        <input type="button" value="Sort" onclick="sort()">
+    </section>
+    <section id="canvas" class="canvas">
+
+    </section>
+    <section id="comparation" class="comparation">
+        <div id="This" class="compare-item this "></div>
+        <div id ="Pivot" class="compare-item pivot"></div>
+    </section>
     
-    <script src="script.js"></script>
+    <script src="/script/sort_algorithms.js"></script>
+    <script src="/script/animation.js"></script>
 </body>
 </html>
